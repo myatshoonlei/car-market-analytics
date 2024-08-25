@@ -1,0 +1,102 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+  
+  .navbar a:hover {
+    color: #ccc;
+  }
+  
+  /* Dashboard Styles */
+  .dashboard {
+    padding: 2rem;
+  }
+  
+  .dashboard-section {
+    margin-bottom: 2rem;
+  }
+  
+  .dashboard-section h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .car-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .car-table th,
+  .car-table td {
+    padding: 0.5rem;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .car-table th {
+    background-color: #f0f0f0;
+  }
+  
+  /* Highlighted Cars Styles */
+  .highlighted-cars {
+    padding: 2rem;
+  }
+  
+  .highlighted-cars h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .highlighted-cars ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .highlighted-cars li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .highlighted-cars button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .highlighted-cars button:hover {
+    background-color: #555;
+  }
+  
+  /* General Styles */
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }

@@ -1,0 +1,13 @@
+.bookmark-icon {
+    transition: 0.2s ease-in-out;
+    color: #6c757d; /* Default dark grey color */
+}
+
+.bookmark-icon:hover {
+    color: rgb(211, 81, 234); /* Change color on hover */
+    transform: translateY(-2px);
+}
+
+.highlighted {
+    color: rgb(211, 81, 234); /* Change color for highlighted */
+}
